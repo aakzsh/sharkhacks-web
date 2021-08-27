@@ -1,0 +1,81 @@
+body {
+   
+    background-size: 100% 100%;
+    background-image:url("https://cdn.discordapp.com/attachments/842749374076944414/880849639291645952/PicsArt_08-27-09.51.46.jpg");
+    background-repeat: no-repeat;
+   
+}
+html {
+    height: 100%
+}
+
+.title-div{
+    /* float: right; */
+    margin-top: -25px;
+    margin-left: -20px;
+    position: absolute;
+   height: 103%;
+   width: 400px;
+   background-color: rgb(118, 111, 214);
+   
+   
+}
+
+.title{
+    font-size: 10rem;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.subtitle{
+    font-size: 2rem;
+    margin-top: -130px;
+    margin-left: 50px;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.div-second{
+    height: 400px;
+    columns: white;
+}
+
+.btn1{
+    margin-top: -130px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    border-radius: 20px;
+    box-shadow: transparent;
+    border: none;
+
+    background-color: rgb(218, 82, 58);
+    background-image: linear-gradient(to right, rgb(25, 84, 211) , rgb(72, 146, 78));
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+}
+
+.btn2{
+   
+    margin-left: 50px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    border-radius: 20px;
+    box-shadow: transparent;
+    border: none;
+
+    background-color: rgb(216, 65, 178);
+    background-image: linear-gradient(to right,  rgb(72, 146, 78), rgb(25, 84, 211) );
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
