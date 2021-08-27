@@ -9,24 +9,46 @@ body {
     padding: 2rem;
     width: 80%;
     /* height: 5rem; */
-    background-color:rgb(67, 115, 218);
+    /* background-color:rgb(112, 146, 221); */
     border-radius: 2rem;
+}
+.div-11{
+    background-color:rgb(112, 146, 221);
+   
+}
+.div-22{
+    background-color:rgb(250, 213, 48);
+   
+}
+.div-33{
+    background-color:rgb(135, 168, 58);
+   
+}
+.div-44{
+    background-color:rgb(182, 102, 65);
+   
 }
 
 .title{
     color: rgb(87, 87, 202);
     font-weight: 700;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .subtitle{
     margin-top: -50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .left{
-    font-family:sans-serif;
+    color:white;
     font-size: 2rem;
-    margin-top: -20px;
-    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.right{
+    color: white;
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
