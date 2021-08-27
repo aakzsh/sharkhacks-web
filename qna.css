@@ -12,3 +12,21 @@ body {
     background-color:rgb(67, 115, 218);
     border-radius: 2rem;
 }
+
+.title{
+    color: rgb(87, 87, 202);
+    font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.subtitle{
+    margin-top: -50px;
+}
+
+.left{
+    font-family:sans-serif;
+    font-size: 2rem;
+    margin-top: -20px;
+    float: left;
+}
