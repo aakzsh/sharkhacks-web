@@ -2,7 +2,7 @@
 
 
 body {
-   background-color: violet;
+   /* background-color: violet; */
     background-size: 100% 100%;
     /* background-image:url("https://cdn.discordapp.com/attachments/842749374076944414/880849639291645952/PicsArt_08-27-09.51.46.jpg"); */
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ html {
 
 .title-div{
     background-size: 100% 100%;
-    background-image: url("https://cdn.discordapp.com/attachments/842749374076944414/880875526758215720/image_search_1630087484784.jpg");
+    background-image: url("https://cdn.discordapp.com/attachments/842749374076944414/881011690093826048/PicsArt_08-28-08.35.40.jpg");
     /* float: right; */
     margin-top: -25px;
     margin-left: -20px;
@@ -116,7 +116,7 @@ p{
     }
     .title-div{
         background-size: 100% 100%;
-        background-image: url("https://cdn.discordapp.com/attachments/842749374076944414/880875526758215720/image_search_1630087484784.jpg");
+        background-image: url("https://cdn.discordapp.com/attachments/842749374076944414/881011690093826048/PicsArt_08-28-08.35.40.jpg");
         /* float: right; */
         margin-top: -25px;
         margin-left: -20px;

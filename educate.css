@@ -1,12 +1,16 @@
 body {
    
-    background-size: 100% 100%;
-   background-color: rgb(255, 255, 255);
+    
+    background-image: linear-gradient(to bottom right,  rgb(30, 21, 46), rgb(84, 100, 170) );
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
    
+    background-size: 100% 100%;
+   /* background-color: rgb(255, 255, 255); */
+   background-size: 100% 100%;
 }
 
 .div-1{
-    padding: 2rem;
+    padding: 1rem;
     width: 80%;
     /* height: 5rem; */
     /* background-color:rgb(112, 146, 221); */
@@ -30,13 +34,14 @@ body {
 }
 
 .title{
-    color: rgb(87, 87, 202);
-    font-weight: 700;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 4rem;
 }
 
 .subtitle{
+    color: white;
     margin-top: -50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -51,4 +56,11 @@ body {
     color: white;
     font-size: 1rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.footer{
+    color: white;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
 }
