@@ -1,7 +1,10 @@
+
+
+
 body {
-   
+   background-color: violet;
     background-size: 100% 100%;
-    background-image:url("https://cdn.discordapp.com/attachments/842749374076944414/880849639291645952/PicsArt_08-27-09.51.46.jpg");
+    /* background-image:url("https://cdn.discordapp.com/attachments/842749374076944414/880849639291645952/PicsArt_08-27-09.51.46.jpg"); */
     background-repeat: no-repeat;
    
 }
@@ -16,22 +19,24 @@ html {
     margin-top: -25px;
     margin-left: -20px;
     position: absolute;
-   height: 103%;
-   width: 400px;
+   height: 102.6%;
+
+   width: 103.3%;
    background-color: rgb(118, 111, 214);
    
    
 }
 
 .title{
-    font-size: 10rem;
-    margin-top: -10px;
+    font-size: 4rem;
+    margin-top: 40px;
     margin-left: 50px;
+    /* position: static; */
 }
 
 .subtitle{
     font-size: 2rem;
-    margin-top: -130px;
+    margin-top: -70px;
     margin-left: 50px;
 }
 p{
@@ -56,7 +61,7 @@ p{
     border: none;
 
     background-color: rgb(218, 82, 58);
-    background-image: linear-gradient(to right,  rgb(38, 54, 40), rgb(80, 163, 31) );
+    background-image: linear-gradient(to right,  rgb(30, 21, 46), rgb(37, 46, 87) );
     height: 3rem;
     width: 15rem;
 }
@@ -73,7 +78,9 @@ p{
     border: none;
 
     background-color: rgb(216, 65, 178);
-    background-image: linear-gradient(to right,  rgb(38, 54, 40), rgb(80, 163, 31) );
+    /* background-image: linear-gradient(to right,  rgb(38, 54, 40), rgb(80, 163, 31) );
+     */
+     background-image: linear-gradient(to right,  rgb(30, 21, 46), rgb(37, 46, 87) );
     height: 3rem;
     width: 15rem;
 }
@@ -89,7 +96,8 @@ p{
     border: none;
 
     background-color: rgb(216, 65, 178);
-    background-image: linear-gradient(to right,  rgb(38, 54, 40), rgb(80, 163, 31) );
+    /* background-image: linear-gradient(to right,  rgb(38, 54, 40), rgb(80, 163, 31) ); */
+    background-image: linear-gradient(to right,  rgb(30, 21, 46), rgb(37, 46, 87) );
     /* padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 2rem;
@@ -97,3 +105,38 @@ p{
     height: 3rem;
     width: 15rem;
 }
+
+@media screen and (min-width: 480px) {
+    body {
+   
+        background-size: 100% 100%;
+        background-image:url("https://cdn.discordapp.com/attachments/842749374076944414/880849639291645952/PicsArt_08-27-09.51.46.jpg");
+        background-repeat: no-repeat;
+       
+    }
+    .title-div{
+        background-size: 100% 100%;
+        background-image: url("https://cdn.discordapp.com/attachments/842749374076944414/880875526758215720/image_search_1630087484784.jpg");
+        /* float: right; */
+        margin-top: -25px;
+        margin-left: -20px;
+        position: absolute;
+       height: 103%;
+       width: 400px;
+       background-color: rgb(118, 111, 214);
+       
+       
+    }
+    
+    .title{
+        font-size: 10rem;
+        margin-top: -10px;
+        margin-left: 50px;
+    }
+    
+    .subtitle{
+        font-size: 2rem;
+        margin-top: -130px;
+        margin-left: 50px;
+    }
+  }
